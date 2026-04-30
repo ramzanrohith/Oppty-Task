@@ -104,7 +104,27 @@
         <label for="feedback"></label>
         <textarea name="Feedback" id="Feedback" placeholder="Drop a feedback 😇" required></textarea>
         <button type="submit">Submit</button>
-    </form>
+    </form><hr><h2>Input types</h2>
+    <input type="file"><br><br>
+    <input type="color"><br><br>
+    <input type="range"><br><br>
+    <input type="search"><br><br>
+    <label for="republic day">Republic Day:</label>
+    <input type="date" id="Republic Day" name="Republic Day"><br><br>
+    <label for="appt">Time</label> <input type="time" id="appt" name="appt">
+    <br><br>
+    <label for="gender">
+        Gender:
+        <input type="radio" name="gender" id="Male" value="Male">Male
+        <input type="radio" name="gender" id="Female" value="Female">Female
+    </label><br>
+     <input type="number" min="18" max="60">
+    <br><br>
+    <label for="password">
+        Password:
+        <input type="password" maxlength="10" pattern="[A-Za-z0-9]{@,$}" title="Must be least 8 characters long and contain only letters and special symbols">
+    </label>
+
     <p><center>&copy; Rohith Oppty</center></p>
 </body>
 </html>
