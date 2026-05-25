@@ -1,0 +1,25 @@
+#id1{
+    background-color: lightblue;
+    width: 500px;
+    height: 500px;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#id2{
+    background-color: lightgray;
+    width: 400px;
+    padding:10px;
+    border:2px solid gray;
+    border-radius: 10px;
+    margin-top: -400px;
+    margin-left: 70px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button:hover{
+    background-color:rgb(234, 151, 151);
+}
