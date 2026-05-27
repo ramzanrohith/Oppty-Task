@@ -1,0 +1,108 @@
+nav{
+    display: flex;
+    border: 2px solid lightblue;
+    gap: 40px;
+    margin-top: 1px;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+}
+button{
+    background-color: orangered;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#r2{
+     background: #EEAECA;
+    background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+}
+#r3{
+    background: #EEAECA;
+    background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.cookie{
+    margin: 75px;;
+    height: 500px;
+}
+#p1{
+    text-align: center;
+    color: rgb(73, 83, 42);
+    margin: 175px 100px;
+}
+h2{
+    margin-left: 35px; 
+}
+.submit{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color:#88bccb;
+    padding: 5px ;
+}
+#r4{
+    display: flex;
+    justify-content: space-between;
+}
+#p2{
+    margin-left: 55px ;
+    margin-right: 600px;
+}
+#m{
+    display: flex;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 3px dotted black;
+    border-radius: 20px;
+}
+#n{
+    display: flex;
+}
+.cap1{
+    margin-left: 120px;
+    background-color: rgb(131, 81, 86);
+    cursor: pointer;
+}
+.cap2{
+    margin-left: 215px;
+    background-color: rgb(131, 81, 86);
+    cursor: pointer;
+}
+.cap3{
+    margin-left: 180px;
+    background-color: rgb(131, 81, 86);
+    cursor: pointer;
+}
+.cap4{
+    margin-left: 170px;
+    background-color: rgb(131, 81, 86);
+    cursor: pointer;
+}
+.cap5{
+    margin-left: 190px;
+    background-color: rgb(131, 81, 86);
+    cursor: pointer;
+}
+#b2{
+    padding: 10px;
+    border-radius: 20px;
+}
+#b2:hover{
+    background-color: chartreuse;
+    cursor: pointer;
+}
