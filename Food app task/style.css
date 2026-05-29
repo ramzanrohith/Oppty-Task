@@ -1,58 +1,72 @@
+body{
+    border: 0px solid black;
+    background: linear-gradient(to right, #00f5a2, #00daf5);
+    padding: 40px;  
+}
+
 nav{
     display: flex;
-    border: 2px solid lightblue;
     gap: 40px;
-    margin-top: 1px;
-    background-color: black;
-    color: white;
+    padding: 30px;
+    background-color: white;
+    color: black;
     justify-content: space-between;
+}
+.f{
+    background-color: orange;
+    border-radius: 10px;
+    width: 90px;
 }
 a{
     margin-top: 20px;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 button{
-    background-color: orangered;
+    background-color: white;
     margin-top: 20px;
     margin-right: 20px;
+    border-radius: 30px;
 }
 #r2{
-     background: #EEAECA;
-    background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
-    background-size: cover;
-    background-position: center;
+    background-color: white;
     height: 100vh;
     display: flex;
+    margin-top: -60px;
 }
 #r3{
-    background: #EEAECA;
-    background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+    background-color: white;
+    height: 70vh;
+    margin-top: -430px;
 }
 .cookie{
-    margin: 75px;;
-    height: 500px;
+    margin: 55px 200px 10px 100px;
+    height: 200px;
+    border-radius: 150px;
 }
 #p1{
     text-align: center;
-    color: rgb(73, 83, 42);
-    margin: 175px 100px;
+    color: black;
+    margin: 80px 250px 10px 50px ;
 }
 h2{
     margin-left: 35px; 
 }
 .submit{
     border: 2px solid black;
-    border-radius: 5px;
-    background-color:#88bccb;
-    padding: 5px ;
+    border-radius: 10px;
+    background-color:white;
+    padding: 5px 15px ;
+}
+[type="submit"]:hover{
+    background-color: orange;
+    cursor: pointer;
 }
 #r4{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 20px;
 }
 #p2{
     margin-left: 55px ;
@@ -60,49 +74,56 @@ h2{
 }
 #m{
     display: flex;
+    justify-content: space-between;
+    margin: 45px 55px 15px 55px;
+
 }
 .img{
-    width: 200px;
-    height: 200px;
-    margin: 40px;
-    margin-left: 50px;
-    margin-right: 50px;
-    border: 3px dotted black;
-    border-radius: 20px;
+    width: 220px;
+    height: 150px;
 }
 #n{
     display: flex;
+    
 }
 .cap1{
-    margin-left: 120px;
-    background-color: rgb(131, 81, 86);
-    cursor: pointer;
+    margin-left: 140px;
 }
 .cap2{
-    margin-left: 215px;
-    background-color: rgb(131, 81, 86);
-    cursor: pointer;
+    margin-left: 245px;
 }
 .cap3{
-    margin-left: 180px;
-    background-color: rgb(131, 81, 86);
-    cursor: pointer;
+    margin-left: 195px;
 }
 .cap4{
-    margin-left: 170px;
-    background-color: rgb(131, 81, 86);
-    cursor: pointer;
+    margin-left: 210px;
 }
 .cap5{
-    margin-left: 190px;
-    background-color: rgb(131, 81, 86);
-    cursor: pointer;
+    margin-left: 220px;
 }
 #b2{
     padding: 10px;
-    border-radius: 20px;
+    background-color: orange;
 }
 #b2:hover{
     background-color: chartreuse;
     cursor: pointer;
+}
+#l{
+    display: flex;
+}
+.r1{
+    margin-left: 80px;
+}
+.r2{
+    margin-left: 165px;
+}
+.r3{
+    margin-left: 115px;
+}
+.r4{
+    margin-left: 145px;
+}
+.r5{
+    margin-left: 145px;
 }
