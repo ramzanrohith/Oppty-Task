@@ -1,0 +1,134 @@
+body{
+    justify-content: center;
+    text-align: center;
+}
+.page{
+    justify-content: center;
+    text-align: center;
+    margin: 50px 200px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px 0px 20px;
+    word-spacing: 20px;
+}
+.nav div{
+    display: flex;
+    margin-top: 20px;
+}
+.hero{
+    display: flex;
+    background-color: lightblue;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.p{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+i{
+    font-weight: 800;
+}
+h1{
+    color: gold;
+}
+.skills{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.skills img{
+    width:100%;
+    height:100px;
+    object-fit:contain;
+    margin-top: 10px;
+}
+.skills div{
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+.m{
+    background-color: lightslategray;
+    padding: 20px;
+}
+.a{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+    max-width:1000px;
+    margin:0px auto;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background:white;
+    border-radius:15px;
+    padding:20px;
+    box-shadow:0 0 10px;
+}
+.card img{
+    width:100%;
+    height:150px;
+    border-radius:10px;
+}
+.card p{
+    line-height:25px;
+}
+.card a{
+    text-decoration:none;
+    color:blue;
+    font-weight:bold;
+}
+.card:hover{
+    transform: rotate(360deg);
+    transition: 10s;
+    box-shadow: 0px 0px 20px goldenrod;
+    border: 4px solid black;
+}
+div .i{
+    height: 20px;
+    width: 40px;
+    border-radius: 50%;
+}
+.projects{
+    background-color: cadetblue;
+    margin-top: -10px;
+    padding: 20px;
+}
+.projects h3{
+    padding-top: 20px;
+    
+}
+.skills img:hover{
+    transform:skew(20deg);
+    transition: 2s;
+}
+.p:hover{
+    transform: scale(1.1) rotate(45deg);
+}
+.contact{
+    background-color: burlywood;
+    padding: 20px;
+}
+.k{
+    word-spacing: 45px;
+}
+button{
+    background-color:lightgoldenrodyellow;
+}
+button:hover{
+    background-color: lightgreen;
+}
+a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
