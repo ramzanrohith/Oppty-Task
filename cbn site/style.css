@@ -1,0 +1,369 @@
+body{
+    margin: 0;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: whitesmoke;
+    position: sticky;
+    height: 95px;
+    top: 0%;
+    left: 0%;
+    width: 97.35%;
+    z-index: 99;
+}
+.link a{
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+}
+.font a{
+    color: black;
+}
+.link{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: -350px;
+    margin-top: 30px;
+}
+.font{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+input{
+    border-radius: 30px;
+    padding:10px;
+    position: relative;
+}
+/* .all{
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+    background: rgba(255,255,255,0.95);
+    display: none;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 60px;
+    z-index: 999;
+}
+
+.all input{
+    width: 45%;
+    font-size: 30px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #000;
+    outline: none;
+    background: transparent;
+}
+.font input:hover{
+    display: flex;
+} */
+.fa-solid.fa-magnifying-glass{
+    position: absolute;
+    right: 60px;
+}
+#hero{
+    height:625px;
+    background-size:cover;
+    animation:l 20s infinite;
+    margin-top: -20px;
+}
+@keyframes l{
+    0%{
+        background-image:url("https://ncbn.info/wp-content/uploads/2022/08/slider01.jpg");
+    }
+    25%{
+        background-image:url("https://ncbn.info/wp-content/uploads/2022/11/Untitled-2.jpg");
+    }
+    50%{
+        background-image:url("https://ncbn.info/wp-content/uploads/2022/08/slider02.jpg");
+    }
+    75%{
+        background-image:url("https://ncbn.info/wp-content/uploads/2022/08/slider03.jpg");
+    }
+    100%{
+        background-image:url("https://ncbn.info/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-18-at-7.37.30-PM.jpeg");
+    }
+}
+#hero p{
+    margin-right: 100px;
+    color: white;
+    font-size: larger;
+    padding-top: 250px;
+    margin-left: 900px;
+    text-shadow: 10px 10px 5px black;
+}
+#hero b{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+#hero button{
+    height: 50px;
+    width: 100px;
+    background: transparent;
+    color: yellow;
+    font-weight: bold;
+    border: 3px solid yellow;
+    margin-left: 5px;
+}
+#hero button:hover{
+    background-color: yellow;
+    color: black;
+}
+.achiev{
+    display: flex;
+    gap: 20px;
+    background-color: aliceblue;
+    padding: 10px 20px 5px 20px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    display: none;
+}
+.achiev img{
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+#achiev{
+    position: relative;
+}
+#nav:has(#achiev:hover) .achiev{
+    display:flex;
+}
+.lead{
+    display: flex;
+    gap: 20px;
+    background-color: aliceblue;
+    padding: 10px 20px 5px 20px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    display: none;
+}
+.lead img{
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+}
+#lead{
+    position: relative;
+}
+#nav:has(#lead:hover) .lead{
+    display:flex;
+}
+.news{
+    display: flex;
+    gap: 20px;
+    background-color: aliceblue;
+    padding: 10px 20px 5px 20px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    display: none;
+}
+.news img{
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+}
+#news{
+    position: relative;
+}
+#nav:has(#news:hover) .news{
+    display:flex;
+}
+#latest{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.scroll{
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+    margin-top: -30px;
+}
+#cards{
+    display: flex;
+    gap: 150px;
+    width: max-content;
+    animation: s 200s linear infinite;
+    padding: 0px 40px;
+}
+
+.card{
+    width: 300px;
+}
+.card img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+@keyframes s{
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+div .img{
+    width: 400px;
+}
+#cards:hover{
+    animation-play-state: paused;
+}
+.card h3,.p{
+    margin-right: -100px;
+    line-height: 25px;
+}
+.test{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: -80px;
+}
+.test a{
+    text-decoration: none;
+    color: goldenrod;
+}
+#gal{
+    display: flex;
+    gap: 800px;
+    padding-left: 20px;
+    align-items: center;
+}
+.ncbn{
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ncbn img{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    cursor: pointer;
+}
+.ncbn h4{
+    position: absolute;
+    top: 1580px;
+    margin-left: 30px;
+    background-color:rgba(0,0,0,0.5);
+    color: white;  
+}
+.ncb{
+    display: flex;
+}
+.cbn img{
+    border-radius: 50%;
+    height: 50px;
+}
+.cbn button:hover{
+    background-color: orange;
+}
+.ncbn img:hover{
+    opacity: 0.5;
+}
+.fa-solid.fa-check{
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: rgb(182, 212, 241);
+}
+.cbn p{
+    margin-top: -20px;
+}
+.p1{
+    font-size: small;
+}
+.tweet{
+    display: flex;
+    gap: 20px;
+}
+.cbn button{
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    padding: 2px;
+    cursor: pointer;
+}
+.copy{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+#new h1{
+    padding: 0px 20px;
+}
+.imp{
+    display: flex;
+    background-color: lightgreen;
+}
+.imp img{
+    width: 100%;
+    padding: 40px;
+}
+.imp div{
+    padding: 40px;
+    margin-top: 75px;
+    padding-right: 300px;
+}
+.big{
+    padding: 45px;
+}
+.footer{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;background-color: black;
+    color: white;
+}
+.footer div{
+    display: flex;
+    padding-top:70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    gap: 25px;
+}
+.footer a{
+    color: white;
+}
+.ga{
+    position: relative;
+}
+
+.drop{
+    display: none;
+    position: absolute;
+    top: 100%;      
+    left: 0;
+    background: white;
+    min-width: 150px;
+    border: 1px solid #ccc;
+}
+
+.drop a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.drop a:hover{
+    background: whitesmoke;
+}
+
+.ga:hover .drop{
+    display: block;
+    box-shadow: 0px 0px 10px black;
+}

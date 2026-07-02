@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: whitesmoke;
+    position: sticky;
+    height: 95px;
+    top: 0%;
+    left: 0%;
+    width: 97.35%;
+    z-index: 99;
+}
+
+.link a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.font a {
+    color: black;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: -350px;
+    margin-top: 30px;
+}
+
+.font {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+input {
+    border-radius: 30px;
+    padding: 10px;
+    position: relative;
+}
+
+.fa-solid.fa-magnifying-glass {
+    position: absolute;
+    right: 60px;
+}
+
+.achiev {
+    display: flex;
+    gap: 20px;
+    background-color: aliceblue;
+    padding: 10px 20px 5px 20px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    display: none;
+}
+
+.achiev img {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    padding: 20px;
+}
+
+#achiev {
+    position: relative;
+}
+
+#nav:has(#achiev:hover) .achiev {
+    display: flex;
+}
+
+.lead {
+    display: flex;
+    gap: 20px;
+    background-color: aliceblue;
+    padding: 10px 20px 5px 20px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    display: none;
+}
+
+.lead img {
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+}
+
+#lead {
+    position: relative;
+}
+
+#nav:has(#lead:hover) .lead {
+    display: flex;
+}
+
+.news {
+    display: flex;
+    gap: 20px;
+    background-color: aliceblue;
+    padding: 10px 20px 5px 20px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    display: none;
+}
+
+.news img {
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+}
+
+#news {
+    position: relative;
+}
+
+#nav:has(#news:hover) .news {
+    display: flex;
+}
+.ac {
+    text-align: center;
+    padding: 25px;
+}
+.ac h2{
+    padding-top: 10px;
+}
+.card {
+    display: flex;
+    padding: 20px;
+
+}
+
+.card h2 {
+    padding: 0px 20px;
+    margin-right: 500px;
+
+}
+.card img{
+    width: 300px;
+    height: 250px;
+}
+.card img:hover{
+    transform: scale(1.02);
+}
+.card p {
+    padding: 0px 20px;
+    line-height: 30px;
+    margin-right: 500px;
+}
+.a1{
+    display: flex;
+}
+.a1 img{
+    height: 125px;
+    width: 150px;
+    padding: 0px 20px 0px 10px;
+}
+.a1 img:hover{
+    transform: scale(1.02);
+}
+.aside {
+    position: absolute;
+    top: 220px;
+    left: 1000px;
+}
+.a1 h4{
+    color: goldenrod;
+}
+.aside h5:hover{
+    color:firebrick;
+}
+.card h2:hover{
+    color:firebrick;
+}
+.footer{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;background-color: black;
+    color: white;
+}
+.footer div{
+    display: flex;
+    padding-top:70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    gap: 25px;
+}
+.footer a{
+    color: white;
+}
+.ga{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    top: 100%;      
+    left: 0;
+    background: white;
+    min-width: 150px;
+    border: 1px solid #ccc;
+}
+
+.dropdown a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown a:hover{
+    background: whitesmoke;
+}
+
+.ga:hover .dropdown{
+    display: block;
+    box-shadow: 0px 0px 10px black;
+}
+hr{
+    width: 950px;
+    margin-left: 1%;
+}
